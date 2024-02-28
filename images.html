@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #414141;
+    }
+</style>
+<body>
+
+    <img src="https://encrypted-tbn0..com/images?q=tbn:ANd9GcTRgmnkN0rj49VTIlmecpARTfGcwrQFrQhfSA-KTGhvqA&s" alt="no image" height="500px"
+    width="500px">
+    
+    <!-- <img src="hitesh.png" alt="no image"> -->
+    <picture>
+        <source media="(min-width:650px)" srcset="hitesh.png"/>
+        <source media="(min-width:450px)" srcset="code.png"/>
+        <!-- <img src="hit.png" alt=""> -->
+    </picture>
+
+
+<img src="blocking_code.png" usemap="#image-map" width="800px" height="800px">
+
+<map name="image-map">
+    <area onclick="one()" alt="" title="" href="" coords="192,302,93" shape="circle">
+    <area onclick="two()" alt="" title="" href="" coords="1119,308,466,247" shape="rect">
+</map>
+    
+</body>
+
+<script>
+    function one(){
+        console.log("you clicked on 1");
+    }
+
+    function two(){
+        console.log("you clicked on 2");
+    }
+</script>
+</html>
